@@ -1,0 +1,100 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Montserrat&display=swap');
+
+
+/* cores adotadas pelo portifólio */
+:root{
+    --vermelho: #c4302b;
+    --preto: #171515;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.profile-photo{
+    border-radius: 20%; /* arredondar imagem */
+    height: 100%;
+    width: 100%;
+    max-width: 10em;
+    max-height: 10em;
+    background-color: #171515;
+    margin-top: -3.5rem;
+    margin: -3rem 3rem 3rem 3rem;
+}
+
+.cabecalho{
+    transition: 0.2s;
+    top: 0;
+    /*background: -webkit-linear-gradient(left, #088fad 20%, #00d5ff 100%);*/
+    background-color: var(--preto);
+    color: whitesmoke;
+    height: 5rem;
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.boas-vindas{
+    text-align: center;
+    text-orientation: unset;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.boas-vindas{
+    flex: content;
+    align-items: center;
+    
+}
+
+.box{
+    display: flex;
+    align-items: stretch;
+    margin: 20px 20px 20px 20px;
+    padding: auto;
+}
+
+.rodape{
+    background-color: var(--preto);
+    color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.contatos{
+    color: whitesmoke;
+    margin: auto 2px 2px 20px;
+}
+.link-contatos{
+    text-decoration: none;
+    color: white;
+}
+
+/* adicionar responsividade */
+@media (max-width: 1024px) {
+    .profile-photo{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .box{
+        max-width: 35%;
+        max-height: 35%;
+    }
+}
