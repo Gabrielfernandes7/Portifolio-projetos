@@ -86,7 +86,7 @@ body{
 }
 
 /* adicionar responsividade */
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .profile-photo{
         width: 90%;
     }
@@ -94,7 +94,11 @@ body{
 
 @media (max-width: 650px) {
     .box{
-        max-width: 35%;
-        max-height: 35%;
+        width: 75%;
+        height: 75%;
+    }
+    .profile-photo{
+        width: 75%;
+        height: 75%;
     }
 }
