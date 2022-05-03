@@ -24,15 +24,13 @@ body{
 
 .cabecalho{
     overflow: hidden;
-    transition: 0.2s;
     top: 0;
-    /*background: -webkit-linear-gradient(left, #088fad 20%, #00d5ff 100%);*/
     background-color: var(--preto);
     color: whitesmoke;
     height: 5rem;
     width: 100%;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-bottom: auto;
+    padding-top: auto;
     margin-top: auto;
     margin-bottom: auto;
     font-size: large;
@@ -42,13 +40,13 @@ body{
 .profile-photo{
     float: left;
     border-radius: 20%; /* arredondar imagem */
-    height: 100%;
-    width: 100%;
+
+    height: auto;
+    width: auto;
     max-width: 25%;
     max-height: 25%;
     background-color: #171515;
-    margin-top: -3.5rem;
-    margin: -3rem 3rem 3rem 3rem;
+    margin: 2.5rem 1.5rem 3rem 3rem;
 }
 
 .boas-vindas{
@@ -58,6 +56,7 @@ body{
 }
 
 .boas-vindas{
+    margin-top: 1pc;
     flex: content;
     align-items: center;
 }
@@ -101,16 +100,24 @@ body{
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) {
+@media only screen and (min-width: 375px)and (max-width: 650px){
+
+    body{
+        background-color: #ffffff;
+    }
+
+    .profile-photo{
+        display: none;
+    }
+
+    .cabecalho{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
     .box{    
         flex-direction: column;
     }
-  }
-
-@media only screen and (min-width: 500px) and (max-width: 700px) {
-  .cabecalho{
-    float: none;
-    display: block;
-    text-align: left;
-  }
+    
 }
