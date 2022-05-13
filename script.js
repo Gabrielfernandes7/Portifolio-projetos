@@ -1,3 +1,2 @@
-document.getElementsByClassName(btn).onclick = () => {
-    console.log("ola");
-}
+const meuCabecalho = document.querySelector('title');
+meuCabecalho.textContent = 'Portifólio';

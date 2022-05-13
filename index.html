@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="container-projetos.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/container-projetos.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
     <!--Google fonts-->
-    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <!-- Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!--Boostrap icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
     <!--Bootstrap JavaScript-->
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
-    <title>Portifólio</title>
+    <title></title>
 </head>
+
 <body>
     <header>
         <div class="cabecalho">
             <h3 class="boas-vindas"> Seja bem vindo ao Portifólio </h3>
         </div>
-        <img class="profile-photo conteiner py-0" src="/assets/img/profile-photo.jpg" alt="octocat-lovelace">
+        <img class="profile-photo img-fluid" src="/assets/img/profile-photo.jpg" alt="octocat-lovelace">
     </header>
 
     <h2 style="margin: 20px;">
@@ -37,87 +44,82 @@
 
     <!--Ícones dos projetos-->
     <h1 style="margin: 20px;">
-        Projetos feitos com : <br> 
-        <i class="devicon-html5-plain colored"></i> 
+        Projetos feitos com : <br>
+        <i class="devicon-html5-plain colored"></i>
         <i class="devicon-css3-plain colored"></i>
         <i class="devicon-javascript-plain colored"></i>
         <i class="devicon-bootstrap-plain colored"></i>
-        <i class="devicon-react-original colored"></i>
-        <i class="devicon-jquery-plain colored"></i>
         <i class="devicon-python-plain colored"></i>
         <i class="devicon-github-original colored"></i>
         <i class="devicon-git-plain colored"></i>
         <i class="devicon-gimp-plain colored"></i>
     </h1>
-    
-    <div class="box container py-3">
-        <div class="container-projeto ">
-            <img class="imagem-projeto" src="/assets/img/hula_loop_octodex.gif" alt="octocat-hule">
-            <h3 class="titulo-container">Projeto FitPower</h3>
 
-            <br/>
-
-            <p class="texto-container">
-                Este projeto é responsável pela venda de produtos voltados para musculação
-            </p>
-
-            <br/>
-
-            <p>
-                Link do projeto: <a href="https://github.com/Gabrielfernandes7/fit-power" class="link-projeto">https://github.com/Gabrielfernandes7/fit-power</a>
-            </p>
+    <div class="box container">
+        <div class="card" style="width: 18rem;">
+            <img src="/assets/img/hula_loop_octodex.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Projeto FitPower</h5>
+                <p class="card-text"> Este projeto tem como o intuito de ser um e-commerce de acessórios para quem
+                    pratica musculação</p>
+                <a href="https://fitpower.netlify.app/" class="btn btn-primary">FitPower</a>
+            </div>
         </div>
 
-        <div class="container-projeto">
-            <img class="imagem-projeto" src="/assets/img/mona-lovelace.jpg" alt="octocat-hule">
-            <h3 class="titulo-container">Projeto IntegralMedica</h3>
-
-            <br/>
-
-            <p class="texto-container">
-                Este projeto é um site responsável pela venda de suplementos
-            </p>
-
-            <br/>
-
-            <p>
-                Link do projeto: <a href="https://github.com/Gabrielfernandes7/ecommerce-integral-medica" class="link-projeto">https://github.com/Gabrielfernandes7/ecommerce-integral-medica</a>
-            </p>
+        <div class="card" style="width: 18rem;">
+            <img src="/assets/img/mona-lovelace.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
         </div>
 
-        <div class="container-projeto">
-            <img class="imagem-projeto" src="/assets/img/code.jpg" alt="octocat-hule">
-            <h3 class="titulo-container">Projeto algoritmos</h3>
-
-            <br/>
-
-            <p class="texto-container">
-                Este projeto é um treino utilizando Algoritmos e estrutura de dados em várias linguagens
-            </p>
-
-            <br/>
-
-            <p>Link do projeto: <a href="" class="link-projeto"> https://github.com/Gabrielfernandes7/burguer-vue</a></p>
+        <div class="card" style="width: 18rem;">
+            <img src="/assets/img/code.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
         </div>
 
-        
+        <div class="card" style="width: 18rem;">
+            <img src="/assets/img/mona-lovelace.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+            </div>
+        </div>
+
+
+
+
     </div>
 
-    <br/>
+    <br />
     <button class="btn btn-primary" style="margin: 20px;">
         <i class="bi bi-currency-bitcoin">
             Buy me coofee with bitcoin
         </i>
     </button>
-    <br/>
+    <br />
 
     <footer class="rodape">
         <div class="contatos">
             <p>Contatos para mais informações</p>
-            <i class="bi bi-linkedin"> <a href="https://www.linkedin.com/in/gabriel-assun%C3%A7%C3%A3o-fernandes-0b1148200/" class="link-contatos">Gabriel Assunção Fernandes</a></i>
+            <i class="bi bi-linkedin"> <a
+                    href="https://www.linkedin.com/in/gabriel-assun%C3%A7%C3%A3o-fernandes-0b1148200/"
+                    class="link-contatos">Gabriel Assunção Fernandes</a></i>
         </div>
-    </div>
-    
+        </div>
+
 </body>
 <script src="script.js"></script>
+
 </html>
