@@ -70,11 +70,13 @@ body{
 .descricao{
     font-family: 'Courier New', Courier, monospace;
     margin: 15px;
+    text-align: justify;
 }
 
 .cursos{
     font-family: 'Courier New', Courier, monospace;
     margin: 15px;
+    text-align: justify;
 }
 
 .rodape{
