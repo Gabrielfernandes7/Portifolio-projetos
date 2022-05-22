@@ -47,15 +47,12 @@ body{
 }
 
 .boas-vindas{
-    text-align: center;
-    text-orientation: unset;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.boas-vindas{
     margin-top: 1pc;
     flex: content;
     align-items: center;
+    text-align: center;
+    text-orientation: unset;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .box{
@@ -64,6 +61,14 @@ body{
     align-items: stretch;
     margin: 20px 20px 20px 20px;
     padding: auto;
+}
+
+.descricao{
+
+}
+
+.cursos{
+    
 }
 
 .rodape{
