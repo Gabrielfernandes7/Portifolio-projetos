@@ -63,12 +63,18 @@ body{
     padding: auto;
 }
 
-.descricao{
+.titulo-textos{
+    margin: 15px;
+}
 
+.descricao{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px;
 }
 
 .cursos{
-    
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px;
 }
 
 .rodape{
