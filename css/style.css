@@ -13,6 +13,7 @@
 *{
     padding: 0;
     margin: 0;
+
 }
 
 body{
@@ -39,9 +40,10 @@ body{
 .profile-photo{
     float: left;
     border-radius: 70%;
-    margin: 150px;
-    padding: 8px;
-    background-color: #f7df07;
+    margin: 5px;
+    padding: 5px;
+    background-color: #171515;
+    margin: 2.5rem;
 }
 
 .boas-vindas{
