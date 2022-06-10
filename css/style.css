@@ -8,6 +8,7 @@
 :root{
     --vermelho: #c4302b;
     --preto: #171515;
+    --amarelo: #f7df07
 }
 
 *{
@@ -91,12 +92,11 @@ body{
 }
 
 .contatos{
-    color: whitesmoke;
     margin: auto 2px 2px 20px;
 }
 .link-contatos{
     text-decoration: none;
-    color: white;
+    color: var(--preto)
 }
 
 /* adicionar responsividade */
