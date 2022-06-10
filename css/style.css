@@ -24,6 +24,10 @@ body{
     display: block
 }
 
+a{
+    text-decoration: none;
+}
+
 .cabecalho{
     overflow: hidden;
     top: 0;
